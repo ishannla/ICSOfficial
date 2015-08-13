@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ICS Official</string>
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Events</string>
+    <string name="title_section3">Contact</string>
+     <string name="title_section4">Forum</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="username_hint">User Name</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Sign In to ICS Official </string>
+    <string name="sign_up_text">SIGN UP</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="email_hint">Email Address</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_up_error">Please make sure you enter a valid name, password, grade, and email address.</string>
+    <string name="sign_up_error_title">Error Occured</string>
+    <string name="sign_up_error_email">Please make sure you enter a valid email address.</string>
+    <string name="app_code">Passcode</string>
+    <string name="login_error">Please make sure you enter a valid username, password, and application code.</string>
+    <string name="logout">Log Out</string>
+    <string name="title_activity_forgot_password">ForgotPasswordActivity</string>
+    <string name="forgot_password">FORGOT PASSWORD</string>
+    <string name="forgot_password_label">Please make sure you enter a valid email address.</string>
+    <string name="inbox_title">No new messages</string>
+    <string name="forum_title">No new posts</string>
+    <string name="friends_title">Add a friend to begin</string>
+    <string name="title_activity_edit_friends">EditFriendsActivity</string>
+    <string-array name="camera_choices" > 
+    	<item> Take Picture </item>  
+    	<item> Take Video </item>  
+    	<item> Import Picture </item>    
+    </string-array>
+    
+     <string name="country_prompt">Choose a country</string>
+  
+    
+    <string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+
+</resources>

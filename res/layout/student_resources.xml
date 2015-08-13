@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_red"
+    android:gravity="center_horizontal" >
+    
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+         android:layout_marginLeft="180dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/extralogo" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/studentfinal7" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/imageButton4"
+        android:layout_alignTop="@+id/imageButton2"
+        android:src="@drawable/facebooklogo" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="320dp"
+        android:layout_height="110dp"
+        android:layout_alignLeft="@+id/imageButton4"
+        android:layout_below="@+id/imageButton4"
+        android:layout_marginTop="21dp"
+        android:src="@drawable/lwsdlogo" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="Lake Washington Student Portal"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageButton1"
+        android:layout_below="@+id/imageButton1"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="15dp"
+        android:text="ICS Facebook Page"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButton4"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:layout_marginLeft="23dp"
+        android:text="Extracurriculars"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

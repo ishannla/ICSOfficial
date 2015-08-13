@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/dark_red" >
+
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="510dp"
+       android:orientation="vertical"
+       android:showDividers="beginning" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+       
+        <Button
+            android:id="@+id/ASB"
+            style="@drawable/button_custom"
+            android:layout_width="340dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_custom"
+            android:textColor="@color/maroon"
+            android:text="Associate Student Body"
+           
+             />
+        
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <Button
+           android:id="@+id/FBLA"
+           android:layout_width="340dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_custom"
+            android:textColor="@color/maroon"
+            android:text="Future Business Leaders" />
+        
+        <TextView
+            android:id="@+id/test"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/Mock"
+         android:layout_width="340dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_custom"
+            android:textColor="@color/maroon"
+            android:text="Mock Trial" />
+        
+         <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/Key"
+             android:layout_width="340dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_custom"
+            android:textColor="@color/maroon"
+            android:text="Key Club" />
+        
+         <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+         
+       
+        
+  
+        <Button
+            android:id="@+id/MUN"
+            android:layout_width="340dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_custom"
+            android:textColor="@color/maroon"
+            android:text="Model United Nations" />
+        
+         <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/NHS"
+            android:layout_width="340dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_custom"
+            android:textColor="@color/maroon"
+            android:text="National Honor Society" />
+        
+         <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/Drama"
+            android:layout_width="340dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_custom"
+            android:textColor="@color/maroon"
+            android:text="Drama" />
+        
+         <TextView
+            android:id="@+id/textView121"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+         
+      
+
+        <Button
+            android:id="@+id/Environmental"
+             android:layout_width="340dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_custom"
+            android:textColor="@color/maroon"
+            android:text="Environment Club" />
+          <TextView
+            android:id="@+id/textView122"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,26 @@
+
+    <resources xmlns:android="http://schemas.android.com/apk/res/android">
+      <color android:id="@+id/purple" android:layout_height="wrap_content" android:layout_width="wrap_content" name="Purple">#523280</color>
+        <color android:id="@+id/lightpurple" android:layout_height="wrap_content" android:layout_width="wrap_content" name="Light_Purple">#E2D1F5</color>
+     <color name="background_purple">#3F2466</color>
+    <color name="light_gray">#bbbbbb</color>
+    <color name="apptheme_color">#61408c</color>
+    <color name="light_purple_button">#e1d2f3</color>
+    <color name="pressed_purple_button">#ba9dda</color>
+    <color name="focused_purple_button">#d6c3ed</color>
+    <color name="text_color">#250054</color>
+     <color name="light_red">#e84e40</color>
+     <color name="dark_red">#cc0000</color>
+     <color name="light_font">#FBFBFB</color>
+    <color name="grey_font">#ff9e9e9e</color>
+    <color name="text_shadow">#7F000000</color>
+    <color name="text_shadow_white">#FFFFFF</color>
+    <color name="light_orange">#ffb733</color>
+    <color name="maroon">#800000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#00ff00</color>
+      <color name="orange">#FFA500</color>
+        <color name="dark_orange">#fd9615</color>
+    
+  
+        </resources>

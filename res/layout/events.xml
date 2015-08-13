@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/dark_red"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/light_orange"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/calendarDate"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/calendarOptions"
+            android:layout_marginRight="96dp"
+            android:layout_marginTop="15dp"
+            android:text="Calendar Date"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/maroon"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/calendarOptions"
+            android:layout_marginBottom="7dp"
+            android:layout_marginRight="30dp"
+            android:layout_toLeftOf="@+id/calendarOptions"
+            android:text="Specify Calendar:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/maroon" />
+
+        <Spinner
+            android:id="@+id/calendarOptions"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/calendarDate"
+            android:layout_marginRight="20dp"
+            android:paddingTop="10dp"
+             android:layout_marginBottom="15dp"
+            android:spinnerMode="dropdown" />
+        
+        
+
+    </RelativeLayout>
+   
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:background="@color/dark_red" >
+        
+   <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/dark_red"
+        android:orientation="vertical"
+        android:showDividers="beginning" >
+        
+        <TextView
+            android:id="@+id/textViewMarch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/linearLayout1"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_gravity="center_horizontal"
+            android:text="SEPTEMBER"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textColor="@color/light_orange"
+              android:background="@color/maroon"
+              android:paddingTop="5dp"
+              android:paddingRight="20dp"
+              android:paddingLeft="20dp"
+              android:paddingBottom="5dp"
+               />
+
+        <TextView
+            android:id="@+id/event1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+               android:textColor="@color/white"
+            android:text="MON, 7th - Mud Cup Week"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:clickable="true"
+   			 android:onClick="onClick"/>
+        
+         <TextView
+            android:id="@+id/event2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+               android:textColor="@color/white"
+            android:text="SAT, 12th - Book Drive"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+          <TextView
+            android:id="@+id/event3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+               android:textColor="@color/white"
+            android:text="SAT, 19th - School Art Walk"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+          
+          <TextView
+            android:id="@+id/event4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+               android:textColor="@color/white"
+            android:text="WED, 23rd - ASB Assembly"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+          
+           <TextView
+            android:id="@+id/event5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+               android:textColor="@color/white"
+            android:text="FRI, 25th - Charity Movie Night"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+       
+         <TextView
+            android:id="@+id/textViewApril"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/linearLayout1"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_gravity="center_horizontal"
+            android:text="OCTOBER"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textColor="@color/light_orange"
+              android:background="@color/maroon"
+              android:layout_marginTop="20dp"
+              android:paddingTop="5dp"
+               android:paddingRight="20dp"
+              android:paddingLeft="20dp"
+              android:paddingBottom="5dp"
+               />
+         
+           <TextView
+            android:id="@+id/event6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+               android:textColor="@color/white"
+            android:text="FRI, 9th - Teacher Conferences"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+         <TextView
+            android:id="@+id/event7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+               android:textColor="@color/white"
+            android:text="FRI, 16th - FBLA Fall Conference"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+          <TextView
+            android:id="@+id/event8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+               android:textColor="@color/white"
+            android:text="SAT, 17th - Key Club Talent Show"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+          
+          <TextView
+            android:id="@+id/event9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+               android:textColor="@color/white"
+            android:text="MON, 19th - Soccer Competition"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+          
+           <TextView
+            android:id="@+id/event10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+               android:textColor="@color/white"
+            android:text="SAT, 24th - Drama Play Production"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+          <TextView
+            android:id="@+id/textViewMay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/linearLayout1"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_gravity="center_horizontal"
+            android:text="NOVEMBER"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textColor="@color/light_orange"
+               android:layout_marginTop="20dp"
+              android:background="@color/maroon"
+              android:paddingTop="5dp"
+             android:paddingRight="20dp"
+              android:paddingLeft="20dp"
+              android:paddingBottom="5dp"
+               />
+          
+            <TextView
+            android:id="@+id/event11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+               android:textColor="@color/white"
+            android:text="MON, 2nd - Food Drive Begins"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+         <TextView
+            android:id="@+id/event12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+               android:textColor="@color/white"
+            android:text="WED, 4th - State Testing"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+          <TextView
+            android:id="@+id/event13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+               android:textColor="@color/white"
+            android:text="MON, 9th - ICS Focus Week"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+          
+          <TextView
+            android:id="@+id/event14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+               android:textColor="@color/white"
+            android:text="SAT, 21st - FBLA Walk-a-thon"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+          
+           <TextView
+            android:id="@+id/event15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+               android:textColor="@color/white"
+            android:text="Event 15"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+          
+          <TextView
+            android:id="@+id/textViewJune"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/linearLayout1"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_gravity="center_horizontal"
+            android:text="DECEMBER"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textColor="@color/light_orange"
+               android:layout_marginTop="20dp"
+              android:background="@color/maroon"
+              android:paddingTop="5dp"
+              android:paddingRight="20dp"
+              android:paddingLeft="20dp"
+              android:paddingBottom="5dp"
+               />
+          
+          <TextView
+            android:id="@+id/event16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+               android:textColor="@color/white"
+            android:text="TUE, 1st - TeddyGrams Week"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+         <TextView
+            android:id="@+id/event17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+               android:textColor="@color/white"
+            android:text="FRI, 4th - Winter Ball"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+          <TextView
+            android:id="@+id/event18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+               android:textColor="@color/white"
+            android:text="MON, 14th - 1st Semester Finals"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+          
+          <TextView
+            android:id="@+id/event19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+               android:textColor="@color/white"
+            android:text="THU, 17th - FBLA Farewell Party"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+          
+           <TextView
+            android:id="@+id/event20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+               android:textColor="@color/white"
+            android:text="FRI, 18th - Last Day of Semester"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+          
+        
+  
+          
+              <TextView
+            android:id="@+id/textView111"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+              
+         </LinearLayout>
+         
+    </ScrollView>
+
+    
+	
+</RelativeLayout>
